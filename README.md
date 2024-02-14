@@ -1,0 +1,1 @@
+# Resources_py_django
