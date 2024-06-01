@@ -1,0 +1,4 @@
+# SSH-KEYGEN
+** ssh-keygen -t rsa -b 4096
+  # CAT PUBLIC KEY
+  ** cat ~/.ssh/id_rsa.pub
