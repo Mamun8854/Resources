@@ -1,5 +1,6 @@
-   // inspect element disable
-    document.addEventListener('contextmenu', function (event) {
+## Inspect element disable
+```bash
+document.addEventListener('contextmenu', function (event) {
         event.preventDefault();
     });
 
