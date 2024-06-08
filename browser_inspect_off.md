@@ -1,10 +1,11 @@
 ## Inspect element disable
-```bash
+```javascript
 document.addEventListener('contextmenu', function (event) {
         event.preventDefault();
     });
-
-    // Check for F12 key press event
+```
+## Check for F12 key press event
+```javascript
     document.addEventListener('keydown', function(event) {
         if (event.keyCode == 123) { // F12 key code
             event.preventDefault(); // Prevent default browser behavior
@@ -15,3 +16,4 @@ document.addEventListener('contextmenu', function (event) {
             alert("Opening developer tools is not allowed.");
         }
     });
+```
