@@ -1,0 +1,15 @@
+# ENTER SERVER USING PEM FIEL
+ssh -i source(.pem file with location) user@ip
+
+# INSTALL NANO
+  - sudo dnf update -y
+  -sudo dnf install nano -y
+
+# ADD SSH FOR FURTHER ENTRY TO SERVER
+sudo nano ~/.ssh/authorized_ssh
+
+# INSTALL PYTHON
+# INSTALL GIT
+  - sudo dnf update -y
+  - sudo dnf install git -y
+# INSTALL PSQL
